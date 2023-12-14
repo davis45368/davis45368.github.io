@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.teAmo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30vh;
+}
+
+.teAmo > h2 {
+    color: #ff0505;
+    font-size: 20vh;
+    letter-spacing: 50px;
+    font-family: Shizuru;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/736x/b5/3a/cc/b53acc17f079c9fa3fa99b1bfd85a3e9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 250px;
+    margin-bottom: 300px;
+}
+.texto > p{
+    overflow: hidden;
+    border-right: 2px solid #000;   
+    white-space: nowrap;
+    margin: 0;
+    font-size: 40px;
+    color: #d482d6;
+    text-align: center;
+}
+
+.texto > p.animado {
+    animation: escribir 13s steps(100) forwards;
+}
+
+.botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -200px;
+    margin-bottom: 150px;
+}
+.boton{
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: wavy;
+    font-size: 100px;
+    color: #d482d6;
+    border: 3px solid #780202;   
+    background: transparent;
+    font-family: Silkscreen;
+    background-color: rgb(161, 3, 3, 0.3);
+}
+
+.boton:hover{
+    box-shadow: 0 0 100000px #D51E1E, 0 0 400000px #D51E1E, 0 0 800000px #D51E1E;
+    transition-delay: 0.1s;
+    background-color: #A10303;
+    opacity: 100%;
+}
+
+audio{
+    opacity: 10%;
+}
+
+
+@keyframes escribir {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
