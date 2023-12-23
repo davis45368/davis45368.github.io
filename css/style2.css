@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-image: url("https://images.unsplash.com/uploads/14133952228810cd761f5/91656487?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.teAmo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.teAmo > h2 {
+    color: #740c77;
+    font-size: 20vh;
+    font-family: Shizuru;
+}
+
+.texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 120px;
+    margin-bottom: 300px;
+    width: 80%;
+}
+.texto > p{
+    margin: 0;
+    font-size: 30px;
+    color: #7021C3;
+    text-align: center;
+}
+
