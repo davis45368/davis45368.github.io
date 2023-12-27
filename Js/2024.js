@@ -7,11 +7,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Array de URLs de imágenes
 const imagenes = ["../img/imagen06.jpg", "../img/imagen07.jpg", "../img/imagen08.jpg", "../img/imagen09.jpg", "../img/imagen10.jpg"];
-const mensajes = ["Tu amor es mi inspiración diaria, mi cielo en la tierra. Gracias por ser mi todo.", 
-                "En tus ojos encuentro un universo donde perderme, y en tu abrazo, mi hogar verdadero.", 
-                "Contigo, cada día es un capítulo de amor que quiero leer una y otra vez.", 
-                "Eres el sueño que nunca quiero despertar, mi felicidad eterna.",
-                "A tu lado, la vida es más hermosa, y cada momento contigo es un regalo."
+const mensajes = ["Espero alcanzar nuevas alturas y aventurarnos en territorios inexplorados. Vamos a trazar un camino lleno de logros y experiencias significativas que fortalezcan nuestra conexión y nos acerquen aún más.", 
+                "Trabajaremos juntos para establecer las bases de una vida llena de alegría, crecimiento y prosperidad. Cada paso que demos será una piedra que forme el camino de nuestra historia compartida", 
+                "Planeamos explorar lugares desconocidos, probar cosas nuevas y celebrar los éxitos, grandes o pequeños, que encontremos en nuestro camino. ", 
+                "Sabemos que la vida puede presentar obstáculos, pero confiamos en nuestra capacidad para superarlos juntos. Queremos construir una relación que se fortalezca ante la adversidad, recordándonos siempre que el amor es la fuerza que nos impulsa hacia adelante.",
+                "Quiero que recuerdes que este 2024 es de muchas metsas y objetivos juntos que quiero compartir a tu lado y espero que se cumplan todos por que cada segundo a tu lado es el mejor regalo de la vida."
             ];
 
 let indiceImagenActual = 0;

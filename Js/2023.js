@@ -7,11 +7,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Array de URLs de imágenes
 const imagenes = ["../img/Imagen1.jpg", "../img/imgen02.jpeg", "../img/imagen03.jpg", "../img/imagen04.jpg", "../img/imagen05.jpg"];
-const mensajes = ["Tu amor es mi inspiración diaria, mi cielo en la tierra. Gracias por ser mi todo.", 
-                "En tus ojos encuentro un universo donde perderme, y en tu abrazo, mi hogar verdadero.", 
-                "Contigo, cada día es un capítulo de amor que quiero leer una y otra vez.", 
-                "Eres el sueño que nunca quiero despertar, mi felicidad eterna.",
-                "A tu lado, la vida es más hermosa, y cada momento contigo es un regalo."
+const mensajes = ["Al mirar al pasado nos hemos cuenta que a pesar de todas las complejidades, todos los fallos y promesas rotas, las hemos afrontado y aprendido de nuestros errores lo cual nos  ha llevado a ver el gran amor que nos tenemos.", 
+                "Ese dia nos dimos cuenta que el amor no se mide por la cantidad de días que hemos estado juntos, sino por la calidad de esos días. Hemos descubierto que nuestras sonrisas se complementan, nuestras lágrimas se consuelan y nuestros sueños se entrelazan de una manera única y especial", 
+                "En este año que ha sido como un cuento de hadas, tú y yo hemos vivido momentos tan especiales que han llenado nuestros corazones de alegría y amor. Descubrimos que cada día juntos es una nueva aventura, llena de risas, complicidad y apoyo mutuo. ", 
+                "Mi niña nos dimos cuenta de que nuestra conexión va más allá de lo cotidiano. Hemos aprendido a entendernos con una sola mirada, a sentirnos acompañados incluso en la distancia y a celebrar las pequeñas victorias de la vida juntos.",
+                "Cada obstáculo nos unió más, y cada logro nos recordó que somos un equipo fuerte y apasionado. La representación de  una promesa de que la distancia que tenemos va llegar el dia que no va a ser un problema si no una bendición y el tiempo dejara de correr"
             ];
 
 let indiceImagenActual = 0;
